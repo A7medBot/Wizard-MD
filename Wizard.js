@@ -8440,7 +8440,7 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y
+"url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
 }
 }, {
 urlButton: {
