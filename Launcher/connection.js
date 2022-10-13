@@ -22,7 +22,7 @@ global.herokuapp = process.env.HEROKU_APP_NAME
 
 let fake = process.env.OWNER_NUMBER
 global.owner = [`${fake}`]
-global.wame = "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
+global.wame = "https://github.com/A7medBot/Wizard-MD"
 global.pemilik = ['9647717555198']
 global.premium = ['9647717555198']
 global.pengguna = process.env.USER_NAME
