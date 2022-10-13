@@ -152,10 +152,10 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 
 
 const reply = (teks) => {
-    Wizard.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: botname,mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: caption, thumbnail: thumbwiz,sourceUrl: ("github.com/Ajmal-Achu")}}})
+    Wizard.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: botname,mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: caption, thumbnail: thumbwiz,sourceUrl: ("https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y")}}})
 }
 const replay = (teks) => {
-    Wizard.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: botname,mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: caption, thumbnail: thumbwiz,sourceUrl: ("github.com/Ajmal-Achu")}}})
+    Wizard.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: botname,mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: caption, thumbnail: thumbwiz,sourceUrl: ("https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y")}}})
 }
 
 const drip =  {
@@ -170,7 +170,7 @@ showAdAttribution: true,
 title: botname,
 body: caption,
 mediaType: "VIDEO",
-mediaUrl: `https://githb.com/Ajmal-Achu/Wizard-MD`,
+mediaUrl: `https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y`,
 description: ownername,
 previewType: "PHOTO",
 thumbnail: thumbwiz,
@@ -1158,7 +1158,7 @@ setInterval(() => {
 //But5Loc
 var nextMinutes = Math.random() * 300 + 30;
 setTimeout(function(){
-  Wizard.sendMessage(Wizard.user.id, {text: `*Wizard MD ANNOUNCEMENT:* *SUBSCRIBE TO OUR CHANNEL*\n\n*YOUTUBE:* https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA\n\n*JOIN SUPPORTING GROUP https://chat.whatsapp.com/EBH8O72EzIiF2KIagVav4X*\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*`,contextInfo: { externalAdReply:{title:botname,body:caption,showAdAttribution: true,mediaType:2,thumbnail: thumbwiz ,mediaUrl:tutorial, sourceUrl: tutorial }}}, {quoted: m})
+  //Wizard.sendMessage(Wizard.user.id, {text: `*Wizard MD ANNOUNCEMENT:* *SUBSCRIBE TO OUR CHANNEL*\n\n*YOUTUBE:* https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA\n\n*JOIN SUPPORTING GROUP https://chat.whatsapp.com/EBH8O72EzIiF2KIagVav4X*\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*`,contextInfo: { externalAdReply:{title:botname,body:caption,showAdAttribution: true,mediaType:2,thumbnail: thumbwiz ,mediaUrl:tutorial, sourceUrl: tutorial }}}, {quoted: m})
   //anouncement by drips 
 }, nextMinutes * 300 * 1000);
 const send5Butlmg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
@@ -2190,7 +2190,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
  case 'sc': case 'script': case 'donate': case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 
   teks = `
-  *${global.botname}*\n\n*TUTORIAL:* github.com/Ajmal-Achu\n*GITHUB:* https://github.com/Ajmal-Achu/Wizard-MD\n\n*WEBSITE:* https://ajmalser.vercel.app\n\n You Can Support Us By Following Us On Social Media😊`
+  *${global.botname}*\n\n*Username:* lhjj_56\n*INSTAGRAM:* https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y\n\n*WEBSITE:* not yet\n\n You Can Support Us By Following Us On Social Media😊`
   let buttons = [
  {buttonId: `menu`, buttonText: {displayText: 'MENU <3'}, type: 1}
   ]
@@ -2207,8 +2207,8 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   showAdAttribution: true,
   thumbnail: thumbwiz,
   mediaType:1,
-  mediaUrl: 'github.com/Ajmal-Achu',
-  sourceUrl: "github.com/Ajmal-Achu"
+  mediaUrl: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y',
+  sourceUrl: "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
   }}
   }
   Wizard.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -2234,8 +2234,8 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   showAdAttribution: true,
   thumbnail: thumbwiz,
   mediaType:1,
-  mediaUrl: 'github.com/Ajmal-Achu',
-  sourceUrl: "github.com/Ajmal-Achu"
+  mediaUrl: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y',
+  sourceUrl: "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
   }}
   }
   Wizard.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3383,7 +3383,7 @@ break
   let btn = [{
  urlButton: {
   displayText: 'SCRIPT',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
  }
   }]
  fatihgans = thumbwiz
@@ -3402,8 +3402,8 @@ for (let yoi of anu) {
     await sleep(1500)
     let btn = [{
  urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  displayText: 'INSTAGRAM',
+  url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
  }
   }, {
  quickReplyButton: {
@@ -4138,8 +4138,8 @@ url: `${drips2.videos[0].url}`
 }
 }, {
 urlButton: {
-displayText: `GITHUB`, 
-url: `https://github.com/Ajmal-Achu/Wizard-MD`
+displayText: `INSTAGRAM`, 
+url: `https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y`
 }
 }, {
 quickReplyButton: {
@@ -5006,8 +5006,8 @@ for (let i of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: 'INSTAGRAM',
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 }]
 let txt = `「 *${global.botname} BROADCAST* 」\n\n${text}`
@@ -5025,8 +5025,8 @@ for (let yoi of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: 'INSTAGRAM',
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 }]
 let txt = `「 *${global.botname} BROADCAST* 」\n\n${text}`
@@ -5058,8 +5058,8 @@ for (let i of anu) {
 await sleep(1500)
 let butoon = [{
 urlButton: {
-displayText: `GITHUB`,
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: `INSTAGRAM`,
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 },
 {
@@ -6613,8 +6613,8 @@ url: youtube
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: 'INSTAGRAM',
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 }, {
 quickReplyButton: {
@@ -6635,7 +6635,7 @@ Wizard.relayMessage(m.chat, template.message, { messageId: template.key.id })
 break
   case 'bug': case 'report': {
   if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
-  Wizard.sendMessage(`918590508376@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+  Wizard.sendMessage(`9647717555198@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`*Successfully reported to the owner\n\nPlease make sure the bug is valid, if you play with this, use this feature again and again for no reason, you will be banned for using the bot*`)
   }
@@ -6914,7 +6914,7 @@ anu = `
  𝚜𝚎𝚝𝚜𝚝𝚊𝚝𝚞𝚜 -𝚝𝚎𝚡𝚝-
  𝚜𝚎𝚝𝚙𝚙𝚋𝚘𝚝 -𝚘𝚠𝚗𝚎𝚛-
  𝚋𝚕𝚘𝚌𝚔 -𝚘𝚠𝚗𝚎𝚛-
- 𝚞𝚗𝚋𝚕𝚘𝚌𝚔 -𝚘𝚠𝚗𝚎𝚛-
+ 𝚞𝚗𝚋𝚕𝚘𝚌𝚔 -𝚘𝚠??𝚎𝚛-
  𝚓𝚘𝚒𝚗 -𝚘𝚠𝚗𝚎𝚛-
  𝚕𝚎𝚊𝚟𝚎 -𝚘𝚠𝚗𝚎𝚛-
  𝚌𝚑𝚊𝚝 -𝚘𝚠𝚗𝚎𝚛-
@@ -7304,12 +7304,12 @@ anu = `
     let btn = [{
         urlButton: {
             displayText: 'SUBSCRIBE',
-            url: youtube
+            url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
         }
     }, {
         urlButton: {
-            displayText: 'GITHUB',
-            url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+            displayText: 'Instagram',
+            url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
         }
     }, {
         quickReplyButton: {
@@ -7339,12 +7339,12 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'SUBSCRIBE',
-    url: youtube
+    url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
     }
     }, {
     urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+    displayText: 'instagram',
+    url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
     }
     }, {
     quickReplyButton: {
@@ -7381,8 +7381,8 @@ anu = `
     }
     }, {
     urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+    displayText: 'INSTAGRAM',
+    url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
     }
     }, {
     quickReplyButton: {
@@ -7419,8 +7419,8 @@ anu = `
     }
     }, {
     urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+    displayText: 'INSTAGRAM',
+    url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
     }
     }, {
     quickReplyButton: {
@@ -7473,7 +7473,7 @@ anu = `
         }
         
     var buffer = await getBuffer(ppuser)
-    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/Ajmal-Achu/Wizard-MD` } },
+    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y` } }, { urlButton: { displayText: `INSTAGRAM`, url : `https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y` } },
     {					
       quickReplyButton: {
       displayText: 'SPEED',
@@ -7651,12 +7651,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: 'INSTAGRAM',
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 }
 ]
@@ -7702,12 +7702,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: 'INSTAGRAM',
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 }
 ]
@@ -7771,12 +7771,12 @@ case 'photooxymenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+  "url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  displayText: 'INSTAGRAM',
+  url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
   }
   }
   ]
@@ -7858,12 +7858,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: 'INSTAGRAM',
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 }
 ]
@@ -7959,12 +7959,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: 'INSTAGRAM',
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 }
 ]
@@ -8028,12 +8028,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: 'INSTAGRAM',
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 }
 ]
@@ -8112,12 +8112,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: 'INSTAGRAM',
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 }
 ]
@@ -8199,12 +8199,12 @@ case 'animemenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+  "url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  displayText: 'INSTAGRAM',
+  url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
   }
   }
   ]
@@ -8264,12 +8264,12 @@ case 'convertmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+  "url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  displayText: 'INSTAGRAM',
+  url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
   }
   }
   ]
@@ -8324,12 +8324,12 @@ case 'toolmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+  "url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  displayText: 'INSTAGRAM',
+  url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
   }
   }
   ]
@@ -8396,12 +8396,12 @@ case 'searchmenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+  "url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  displayText: 'INSTAGRAM',
+  url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
   }
   }
   ]
@@ -8440,12 +8440,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+displayText: 'INSTAGRAM',
+url: 'https://instagram.com/lhjj_56?igshid=YmMyMTA2M2Y'
 }
 }
 ]
